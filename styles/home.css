@@ -1,0 +1,14 @@
+.wrapper{
+    padding-inline: 70px;
+}
+.header{
+    padding-top: 4rem;
+}
+.header .header__title{
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.header .header__subtitle{
+    font-size: 1.6875rem;
+    font-weight: 400;
+}
