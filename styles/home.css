@@ -13,6 +13,11 @@
     font-size: 1.6875rem;
     font-weight: 400;
 }
+@media (max-width: 1016px){
+    .wrapper{
+        padding-inline: 25px;
+    }
+}
 main{
     position: relative;
     overflow: hidden;
@@ -21,7 +26,16 @@ main{
 main .wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25.75rem, 1fr));
+    justify-items: center;
     gap: 2.375rem;
+}
+@media (max-width: 1016px){
+    main .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
 }
 main > img{
     position: absolute;
