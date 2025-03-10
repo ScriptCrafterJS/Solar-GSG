@@ -1,0 +1,81 @@
+.wrapper{
+    padding-inline: 70px;
+}
+.header{
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+.header .header__title{
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.header .header__subtitle{
+    font-size: 1.6875rem;
+    font-weight: 400;
+}
+@media (max-width: 1016px){
+    .wrapper{
+        padding-inline: 25px;
+    }
+}
+main{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 4.4375rem;
+}
+main .wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25.75rem, 1fr));
+    justify-items: center;
+    gap: 2.375rem;
+}
+@media (max-width: 1016px){
+    main .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+}
+main > img{
+    position: absolute;
+    right: -9rem;
+    bottom: -18rem;
+    rotate: 270deg;
+}
+.card{
+    max-width: 25.75rem;
+    background-color: #151515D9;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.875rem;
+    padding: 10px;
+}
+.card .card__image-container{
+    width: 9.6rem;
+}
+.card .card__image{
+    width: 100%;
+}
+.card .card__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.card .card__subtitle{
+    font-size: 0.875rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+.card .card__link-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card .card__link{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin-right: 1rem;
+}
