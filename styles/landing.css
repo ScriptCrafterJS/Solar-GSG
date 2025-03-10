@@ -6,7 +6,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: url('background-image.jpg') no-repeat center center/cover;
+  background: 
+    url('hero.png') no-repeat center center/cover,  /* Top Layer */
+    url('hero-solar-system.png') no-repeat center center/cover;  /* Bottom Layer */  
   color: #fff;
   display: flex;
   justify-content: center;
