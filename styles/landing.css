@@ -13,7 +13,7 @@ body {
     align-items: center;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url('hero.png');
+    background-image: url('../assets/images/landing/hero.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body {
     align-items: center;
     text-align: center;
     
-    background-image: url('../assets/images/landing/hero-solar-system.png'), url('hero.png');
+    /* background-image: url('../assets/images/landing/hero-solar-system.png'), url('hero.png'); */
     background-position: center, center;
     background-size: contain, cover;
     background-repeat: no-repeat, no-repeat;
