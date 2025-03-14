@@ -21,7 +21,7 @@ body {
     align-items: center;
     text-align: center;
     
-    background-image: url('hero-solar-system.png'), url('hero.png');
+    background-image: url('../assets/images/landing/hero-solar-system.png'), url('hero.png');
     background-position: center, center;
     background-size: contain, cover;
     background-repeat: no-repeat, no-repeat;
